@@ -1,0 +1,150 @@
+/* Global */
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #4E4E4E;
+}
+
+
+/* header */
+
+header {
+    background: #F9F9F9;
+    height: 150px;
+    padding-top: 60px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+
+/* Item Display */
+
+default-image-box {
+    background: #E6E6E6;
+}
+
+.default-image,
+.supporting-image {
+    width: 100%;
+}
+
+
+/*item description*/
+
+.item-description h3 {
+    font-size: 20px;
+}
+
+.item-description h3,
+#detail-specification {
+    font-weight: bold;
+}
+
+.item-description #classification {
+    font-size: 12px;
+}
+
+#select-size-button label,
+#checkout-button .btn,
+#add-to-cart-button .btn {
+    font-size: 10px;
+}
+
+#description,
+#details,
+.qauntity {
+    font-weight: 300;
+}
+
+.detail-list,
+.qauntity {
+    font-size: 15px
+}
+
+#quantity-button .btn,
+#select-size-button input {
+    border: 1px solid #ccc;
+}
+
+#quantity-button label {
+    width: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding: 5px 0 5px 0;
+}
+
+#select-size-button input {
+    margin: 10px;
+}
+
+#select-size-button #small {
+    margin-left: 0;
+}
+
+#checkout-button .btn,
+#add-to-cart-button .btn {
+    padding: 10px 25px;
+    margin-left: 0;
+    font-weight: 500;
+}
+
+@media(max-width: 768px) {
+    /* Global */
+    body {
+        font-family: Roboto, sans-serif;
+        color: #4E4E4E;
+    }
+    /* header */
+    header {
+        background: #F9F9F9;
+        height: 150px;
+        padding-top: 60px;
+    }
+    header h1 {
+        font-weight: bold;
+        font-size: 28px;
+    }
+    /* Item Display */
+    default-image-box {
+        background: #E6E6E6;
+    }
+    .default-image,
+    .supporting-image {
+        width: 100%;
+    }
+    /*item description*/
+    .item-description h3 {
+        font-size: 20px;
+    }
+    .item-description h3,
+    #detail-specification {
+        font-weight: bold;
+    }
+    #description {
+        text-align: left;
+    }
+    #detail-specification,
+    #details,
+    .qauntity-specified,
+    #quantity-button,
+    #select-size-button,
+    #checkout-button,
+    #add-to-cart-button {
+        width: 50%;
+    }
+    .item-description #classification {
+        font-size: 12px;
+    }
+    #description,
+    #details,
+    .qauntity {
+        font-weight: 300;
+    }
+    .detail-list,
+    .qauntity {
+        font-size: 15px
+    }
+}
